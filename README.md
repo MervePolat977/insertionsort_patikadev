@@ -4,7 +4,7 @@
 
 ## Patika.dev'de veri yapıları kursu için yapılan proje
 
-#Proje 1
+#Proje 1  
 SORU-1) [22,27,16,2,18,6] -> Insertion Sort
 
 ## A) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.  
@@ -36,24 +36,22 @@ SORU-1) [22,27,16,2,18,6] -> Insertion Sort
  
  
 ## C) Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
-Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.  
 
-Worst Case:
-Küçükten büyüğe sıralanmak istenen bir dizinin tüm elemanlarının büyükten küçüğe sıralanmasıdır (reversed order).
-O(N x (N+1)) / 2 => O((N²+N)/2) => O(N²/2) => O(N²)
+Worst Case:  
+Küçükten büyüğe sıralanmak istenen bir dizinin tüm elemanlarının büyükten küçüğe sıralanmasıdır (reversed order).  
+O(N x (N+1)) / 2 => O((N²+N)/2) => O(N²/2) => O(N²)  
 
-Best Case:
-Küçükten büyüğe sıralamak istediğimiz bir dizinin elemanlarının zaten küçükten büyüğe sıralandığı durumdur.
-Dolayısıyla O(N)' dir.
+Best Case:  
+Küçükten büyüğe sıralamak istediğimiz bir dizinin elemanlarının zaten küçükten büyüğe sıralandığı durumdur.  
+Dolayısıyla O(N)' dir.  
 
-Average Case:
-O(N²) + O(N) in ortalaması olacağı için yine N² cinsinden bir sonuç olur. average case = O(N²)
+Average Case:  
+O(N²) + O(N) in ortalaması olacağı için yine N² cinsinden bir sonuç olur. Average case = O(N²)  
 
-[2,6,16,18,22,27]=> Siralanmis dizi
+[2,6,16,18,22,27]=> Sıralanmış dizi  
 
-Cevap : Aradığımız sayı başta(Best Case) ve sonda(Worse Case) olmadığından beklenilen durum olarak Average Case'dir
-
-
+Cevap : Aradığımız sayı başta(Best Case) ve sonda(Worse Case) olmadığından beklenilen durum olarak Average Case'dir.  
 
 
 
